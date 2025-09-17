@@ -2,7 +2,7 @@ import { FaQuestionCircle, FaBrain, FaLightbulb, FaUserTie } from 'react-icons/f
 import Quiz from '../components/Quiz';
 import InteractiveScenario from '../components/InteractiveScenario';
 import SectionTitle from '../components/SectionTitle';
-
+import { motion } from 'framer-motion';
 const quizData = {
   question: "Theo bạn, yếu tố nào quan trọng nhất để chống tham nhũng hiệu quả?",
   options: [

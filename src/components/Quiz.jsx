@@ -56,3 +56,4 @@ const Quiz = ({ question, options, correctAnswer }) => {
 
 export default Quiz;
 
+

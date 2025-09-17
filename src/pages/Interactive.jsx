@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { FaQuestionCircle, FaBrain, FaLightbulb, FaUserTie } from 'react-icons/fa';
 import Quiz from '../components/Quiz';
 import InteractiveScenario from '../components/InteractiveScenario';

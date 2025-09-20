@@ -7,6 +7,7 @@ import Challenges from './pages/Challenges';
 import Interactive from './pages/Interactive';
 import AIUsage from './pages/AIUsage';
 import Context from './pages/Context';
+import Theory from './pages/Theory';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<LandingPage />} />
           <Route path="tu-tuong" element={<HCMThoughts />} />
+          <Route path="ly-thuyet" element={<Theory />} />
           <Route path="nguy-co" element={<CorruptionRisks />} />
           <Route path="thach-thuc" element={<Challenges />} />
           <Route path="tuong-tac" element={<Interactive />} />

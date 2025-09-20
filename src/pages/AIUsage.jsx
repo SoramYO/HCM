@@ -19,7 +19,7 @@ const AIUsage = () => {
               AI Usage Documentation
             </h1>
             <p className="text-xl text-gray-200">
-              FA25_HCM202_SE1739 - D6
+              FA25_HCM202_SE1739 - ST
             </p>
           </motion.div>
         </div>
@@ -41,7 +41,7 @@ const AIUsage = () => {
               </h2>
               <div className="space-y-2">
                 <p><strong>Mã lớp:</strong> FA25_HCM202_SE1739</p>
-                <p><strong>Nhóm:</strong> D6</p>
+                <p><strong>Nhóm:</strong> ST</p>
                 <p><strong>Độ hoàn thành:</strong> 100%</p>
               </div>
             </motion.div>
@@ -59,7 +59,7 @@ const AIUsage = () => {
               </h2>
               <div className="space-y-4">
                 <div>
-                  <h3 className="font-bold text-lg mb-2">1. Claude 3.5 Sonnet</h3>
+                  <h3 className="font-bold text-lg mb-2">1. OpenAI GPT</h3>
                   <p className="text-gray-600">
                     - Mục đích: Hỗ trợ xây dựng cấu trúc website và tạo components<br />
                     - Prompt chính: Yêu cầu tạo layout, components và tích hợp animations<br />

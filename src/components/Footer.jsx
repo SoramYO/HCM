@@ -47,7 +47,7 @@ const Footer = () => {
             >
               FA25_HCM202_SE1739
             </motion.h3>
-            <p className="mb-2">Nhóm: D6</p>
+            <p className="mb-2">Nhóm: ST</p>
             <p className="mb-4">Đề tài: Tham nhũng - Thách thức cho Đảng và Nhà nước</p>
             <div className="flex space-x-4">
               <a 

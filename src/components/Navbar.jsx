@@ -8,12 +8,14 @@ import {
   FaTasks, 
   FaGamepad, 
   FaRobot,
-  FaGlobe
+  FaGlobe,
+  FaGraduationCap
 } from 'react-icons/fa';
 
 const navItems = [
   { path: '/', label: 'Trang chủ', icon: FaHome },
   { path: '/tu-tuong', label: 'Tư tưởng HCM', icon: FaBook },
+  { path: '/ly-thuyet', label: 'Lý thuyết', icon: FaGraduationCap },
   { path: '/boi-canh', label: 'Bối cảnh', icon: FaGlobe },
   { path: '/nguy-co', label: 'Nguy cơ', icon: FaExclamationTriangle },
   { path: '/thach-thuc', label: 'Thách thức', icon: FaTasks },
@@ -99,7 +101,7 @@ const Navbar = () => {
                 );
               })}
             </div>
-            <div className="grid grid-cols-3 gap-1 py-3 border-t border-gray-200">
+            <div className="grid grid-cols-4 gap-1 py-3 border-t border-gray-200">
               {navItems.slice(4).map((item) => {
                 const Icon = item.icon;
                 const isActive = location.pathname === item.path;
